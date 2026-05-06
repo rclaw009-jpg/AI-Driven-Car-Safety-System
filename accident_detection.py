@@ -143,7 +143,7 @@ def get_location():
 import requests
 
 def get_weather_reminder(lat, lon):
-    API_KEY = "a711657b83ab3c0dfe4369531843e457"  # Replace with a valid API key
+    API_KEY = "***********************"  # Replace with a valid API key
     url = f"http://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API_KEY}&units=metric"
 
     response = requests.get(url)
