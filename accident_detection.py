@@ -184,13 +184,13 @@ import os
 def send_emergency_alert():
     from twilio.rest import Client
     # Twilio credentials
-    account_sid = "ACd4e8d2ffd51f4a92f712333d09e87494"
-    auth_token = "282a268b0d72141d395d35a03752ac6f"
+    account_sid = "*******************"
+    auth_token = "********************"
     # Send SMS
     client = Client(account_sid, auth_token)
     message = client.messages.create(
-        to="+919347940814",
-        from_="+15177448402",
+        to="EMERGENCY NUMBER",
+        from_="VICTIM NUMBER",
         body=["Accident detected near Narasaraopeta, Palnadu latitude:16.176050, longitude:80.076828", ]
 
     )
