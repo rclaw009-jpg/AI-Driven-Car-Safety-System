@@ -1,0 +1,9 @@
+tensorflow
+keras
+numpy
+opencv-python
+twilio
+requests
+geopy
+scikit-learn
+matplotlib
