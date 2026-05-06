@@ -27,3 +27,7 @@ The system also integrates:
 ---
 
 ## 🧠 Model Architecture
+- **Optimizer:** Adam (lr = 0.001)
+- **Loss Function:** Binary Cross-Entropy
+- **Epochs:** 40
+- **Batch Size:** 32
